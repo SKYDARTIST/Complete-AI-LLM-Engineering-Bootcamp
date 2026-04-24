@@ -25,8 +25,18 @@ My personal code repository for the **Full Stack Generative and Agentic AI with 
 
 ```
 AI-agentic/
-├── 11_threading/           # Concurrency and parallelism in Python
-│   └── 01_day.py           # Threading basics — chai shop example
+├── 11_threading/                   # Concurrency and parallelism in Python
+│   ├── 01_day.py                   # Threading basics — chai shop example
+│   ├── 02_multiprocessing.py       # Multiprocessing basics — parallel chai brewing
+│   ├── 03_gil_threading.py         # GIL demonstration with CPU-bound threads
+│   ├── 04_gil_multiprocessing.py   # GIL bypass using multiprocessing
+│   ├── 05_thread_one.py            # Thread example 1
+│   ├── 06_thread_two.py            # Thread example 2
+│   ├── 07_thread_download.py       # Threading for I/O — simulated downloads
+│   ├── 08_thread_lock.py           # Thread locks — preventing race conditions
+│   ├── 09_process_one.py           # Process example 1
+│   ├── 10_process_two.py           # Process example 2
+│   └── 11_process_queue.py         # Inter-process communication with Queue
 └── README.md
 ```
 
