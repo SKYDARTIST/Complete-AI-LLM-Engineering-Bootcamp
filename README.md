@@ -37,6 +37,17 @@ AI-agentic/
 │   ├── 09_process_one.py           # Process example 1
 │   ├── 10_process_two.py           # Process example 2
 │   └── 11_process_queue.py         # Inter-process communication with Queue
+├── 12_asyncio/                     # Async programming with asyncio and aiohttp
+│   ├── 01_async_one.py             # First coroutine — async def and asyncio.run
+│   ├── 02_async_two.py             # Blocking vs non-blocking — time.sleep inside async
+│   ├── 03_async_three.py           # Concurrent HTTP requests with aiohttp + gather
+│   ├── 04_thread_async.py          # Offload blocking code to ThreadPoolExecutor
+│   ├── 05_process_async.py         # CPU-bound task with ProcessPoolExecutor
+│   ├── 06_bgworker.py              # Daemon thread alongside async event loop
+│   └── 07_daemon.py                # Daemon thread lifecycle demo
+├── 13_pydantic/                    # Data validation with Pydantic
+│   ├── 01_class.py                 # Basic BaseModel with type validation
+│   └── 02_class.py                 # Model with default field values
 └── README.md
 ```
 
@@ -66,6 +77,8 @@ I'm a self-taught developer (8 apps shipped in 8 months) working to close the ga
 ## Progress
 
 - [x] Section 11 — Threading & Concurrency
+- [x] Section 12 — Asyncio & Async Programming
+- [x] Section 13 — Pydantic (in progress)
 - [ ] Agents & RAG Systems
 - [ ] LangGraph & Memory
 - [ ] MCP Server
