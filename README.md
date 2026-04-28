@@ -47,7 +47,17 @@ AI-agentic/
 │   └── 07_daemon.py                # Daemon thread lifecycle demo
 ├── 13_pydantic/                    # Data validation with Pydantic
 │   ├── 01_class.py                 # Basic BaseModel with type validation
-│   └── 02_class.py                 # Model with default field values
+│   ├── 02_class.py                 # Model with default field values
+│   ├── 03_class.py                 # List, Dict, and Optional field types
+│   ├── 04_class.py                 # Field constraints — min/max length, ge
+│   ├── 05_class.py                 # field_validator and model_validator
+│   ├── 06_class.py                 # computed_field for derived values
+│   ├── 07_class.py                 # Validators for transform and cross-field logic
+│   ├── 08_class.py                 # Nested models — Address inside Person
+│   ├── 09_class.py                 # Recursive self-referential model
+│   └── 10_class.py                 # Complex nested structures with Union types
+├── 14_generative_ai/               # Generative AI internals — tokenization, embeddings
+│   └── 01_class.py                 # Tokenization with tiktoken — encode/decode text
 └── README.md
 ```
 
@@ -78,7 +88,8 @@ I'm a self-taught developer (8 apps shipped in 8 months) working to close the ga
 
 - [x] Section 11 — Threading & Concurrency
 - [x] Section 12 — Asyncio & Async Programming
-- [x] Section 13 — Pydantic (in progress)
+- [x] Section 13 — Pydantic
+- [x] Section 14 — Generative AI Internals (in progress)
 - [ ] Agents & RAG Systems
 - [ ] LangGraph & Memory
 - [ ] MCP Server
