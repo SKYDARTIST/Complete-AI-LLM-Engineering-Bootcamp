@@ -58,6 +58,8 @@ AI-agentic/
 │   └── 10_class.py                 # Complex nested structures with Union types
 ├── 14_generative_ai/               # Generative AI internals — tokenization, embeddings
 │   └── 01_class.py                 # Tokenization with tiktoken — encode/decode text
+├── 20_ai_agent/                    # AI agent with OpenAI tool calling
+│   └── main.py                     # Agentic loop — GPT-4o-mini + get_weather tool via OpenWeatherMap
 └── README.md
 ```
 
@@ -89,7 +91,8 @@ I'm a self-taught developer (8 apps shipped in 8 months) working to close the ga
 - [x] Section 11 — Threading & Concurrency
 - [x] Section 12 — Asyncio & Async Programming
 - [x] Section 13 — Pydantic
-- [x] Section 14 — Generative AI Internals (in progress)
+- [x] Section 14 — Generative AI Internals
+- [x] Section 20 — AI Agent with Tool Calling (OpenAI + OpenWeatherMap)
 - [ ] Agents & RAG Systems
 - [ ] LangGraph & Memory
 - [ ] MCP Server
